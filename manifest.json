@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Mouse for Hulu",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://www.hulu.com/watch/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
