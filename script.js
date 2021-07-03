@@ -1,7 +1,9 @@
 let mouseTimer = null;
 
 function setMouse(state) {
+    try {
         document.querySelector('#web-player-app').style.cursor = state ? 'auto' : 'none';
+    } catch (error) {}
 }
 
 function resetTimer() {
