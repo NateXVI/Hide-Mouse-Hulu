@@ -6,7 +6,7 @@
     "update_url": "https://clients2.google.com/service/update2/crx",
     "content_scripts": [
         {
-            "matches": ["https://www.hulu.com/*"],
+            "matches": ["https://*.hbomax.com/*"],
             "js": ["script.js"]
         }
     ],
