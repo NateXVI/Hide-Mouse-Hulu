@@ -150,6 +150,6 @@ The reason I went through all the trouble of making a whole new version of the e
 
 Version 2 ueses timeouts to determine when to hide the mouse. This workes really well and most people wouldn't have any complaints about it. What I don't like about it is that the mouse cursors visibility does not always match the visibility of the web player controls. For example when a video is paused the controls do not disappear, but the mouse still dose if it was idle.
 
-Version 3 changes how it determines weather or not to hide the mouse. It uses the opacity of the controls container to determine if the mouse should be hidden. I like this way more because the mouse is always visible when the controls are visible. One downside is that the old behavior may be preferable to some. This could be the case considering that I have not yet had complaints about the functionality of the extension since v0.1.0.
+Version 3 changes how it determines wheather or not to hide the mouse. It uses the opacity of the controls container to determine if the mouse should be hidden. I like this way more because the mouse is always visible when the controls are visible. One downside is that the old behavior may be preferable to some. This could be the case considering that I have not yet had complaints about the functionality of the extension since v0.1.0.
 
 ---
