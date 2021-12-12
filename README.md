@@ -10,7 +10,7 @@ C'mon Hulu, I think you're a good streaming service, but it's disapointing that 
 
 Or if you prefer Firefox, [here](https://addons.mozilla.org/en-US/firefox/addon/hide-mouse-for-hulu/) is a link to install the extension from the Firefox Add-ons Store.
 
-This branch is for v0.3.x but right now the version available on the Chrome Web Store is v0.2.2. Right now I am still testing out v0.3 and deciding if I want to make the switch. I'll put the [difference](#v03x-vs-v022) between them down below.
+This branch is for v0.3.x but right now the version available on the Chrome Web Store is v0.2.2. Right now I am still testing out v0.3 and deciding if I want to make the switch. I'll put the [difference]() between them down below.
 
 ## How the extension works 🤓:
 
@@ -144,7 +144,7 @@ And that's it! We now have an extension that hides the mouse cursor when you are
 
 ---
 
-## v0.3.x vs v0.2.2
+## Difference between v0.3.0 and v0.2.0
 
 The reason I went through all the trouble of making a whole new version of the extension is because I had one small complaint about the old one.
 
