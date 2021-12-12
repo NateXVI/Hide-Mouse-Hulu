@@ -8,6 +8,8 @@ C'mon Hulu, I think you're a good streaming service, but it's disapointing that 
 
 ## How the extension works:
 
+For anyone who is curious or wants to learn how this extension works, here's an explanation. If you have any questions or suggestions, please feel free to open an issue or email me. 😉
+
 1. **It has a function that hides the mouse cursor**
 
 Here is the the code for the function:
@@ -27,7 +29,7 @@ function setMouse(visibility) {
 }
 ```
 
-if visibility is true, the mouse will be visible. If it is false, the mouse will be hidden. Pretty simple, right?
+If visibility is true, the mouse will be visible. If it is false, the mouse will be hidden. Pretty simple, right?
 
 What's nice about this code is that it only controls the visibility of the mouse cursor while it is hovering over the web player. You don't have to worry about the mouse cursor being hidden while the web player is not active.
 
@@ -108,11 +110,11 @@ This is an example what a controls container HTML tag looks like:
 
 What's inside the div does not matter.
 
-You can see that the controls container style attribute has the opacity in it. We are going to use this value to decide if we want to hide or show the mouse cursor.
+You can see that the controls container style attribute has the opacity in it. Whenever this attribute changes we are going to use it to decide if we want to hide or show the mouse cursor. The callback function will be called every time this attribute changes.
 
 Here's a breakdown of what the code <u>inside</u> the callback function does:
 
-first we want to find the opacity of the controls container. This is simply done with this one line
+First we want to find the opacity of the controls container. This is simply done with this one line.
 
 ```javascript
 // inside the callback function
@@ -129,3 +131,5 @@ Then we want to set the mouse cursor visibility based off of the opacity.
 // make the mouse visible if the opacity is greater than 0.5
 setMouse(opacity >= 0.5);
 ```
+
+And that's it! We now have an extension that hides the mouse cursor when you are watching a video.
