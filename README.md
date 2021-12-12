@@ -10,6 +10,8 @@ C'mon Hulu, I think you're a good streaming service, but it's disapointing that 
 
 For anyone who is curious or wants to learn how this extension works, here's an explanation. If you have any questions or suggestions, please feel free to open an issue or email me. 😉
 
+---
+
 1. **It has a function that hides the mouse cursor**
 
 Here is the the code for the function:
@@ -33,7 +35,7 @@ If visibility is true, the mouse will be visible. If it is false, the mouse will
 
 What's nice about this code is that it only controls the visibility of the mouse cursor while it is hovering over the web player. You don't have to worry about the mouse cursor being hidden while the web player is not active.
 
-<br>
+---
 
 2. **Finds a controls container**
 
@@ -65,7 +67,7 @@ function findControlsContainer() {
 }
 ```
 
-<br>
+---
 
 3. **Start observing changes to the controls container**
 
@@ -91,7 +93,7 @@ observer.observe(controlsContainer, {
 });
 ```
 
-<br>
+---
 
 4. **Mirror the visibility of the mouse cursor with the opacity of the controls container**
 
@@ -133,3 +135,5 @@ setMouse(opacity >= 0.5);
 ```
 
 And that's it! We now have an extension that hides the mouse cursor when you are watching a video.
+
+---
