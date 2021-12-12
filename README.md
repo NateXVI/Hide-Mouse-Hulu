@@ -6,6 +6,12 @@ This extension adds one of the most **basic** features to Hulu: hiding the mouse
 
 C'mon Hulu, I think you're a good streaming service, but it's disapointing that you haven't added this feature yet. 😔
 
+[Here](https://chrome.google.com/webstore/detail/hide-mouse-for-hulu/ghkgcbmfkhhianaenbebiamapecmgkjk) is a link to install the extension from the Chrome Web Store.
+
+Or if you prefer Firefox, [here](https://addons.mozilla.org/en-US/firefox/addon/hide-mouse-for-hulu/) is a link to install the extension from the Firefox Add-ons Store.
+
+This branch is for v0.3.x but right now the version available on the Chrome Web Store is v0.2.2. Right now I am still testing out v0.3 and deciding if I want to make the switch. I'll put the difference between them down below.
+
 ## How the extension works:
 
 For anyone who is curious or wants to learn how this extension works, here's an explanation. If you have any questions or suggestions, please feel free to open an issue or email me. 😉
@@ -135,5 +141,15 @@ setMouse(opacity >= 0.5);
 ```
 
 And that's it! We now have an extension that hides the mouse cursor when you are watching a video.
+
+---
+
+## v0.3.x vs v0.2.2
+
+The reason I went through all the trouble of making a whole new version of the extension is because I had one small complaint about the old one.
+
+Version 2 ueses timeouts to determine when to hide the mouse. This worked really well and I don't think most people would have any complaints about it. What I didn't like about it was that it's visibility did not always match the visibility of the web player controls. For example when a video is paused the controls do not disappear, but the mouse still would if it was idle.
+
+Version 3 changes how it determines weather or not to hide the mouse. It uses the opacity of the controls container to determine if the mouse should be hidden. I like this way more because the mouse is always visible when the controls are visible. One downside is that the old behavior may be preferable to some. This could be the case considering that I have not yet had complaints about the functionality of the extension since v0.1.0.
 
 ---
