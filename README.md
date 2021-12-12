@@ -1,6 +1,6 @@
 # Hide Mouse For Hulu 🐭
 
-## Description
+## Description 📖
 
 This extension adds one of the most **basic** features to Hulu: hiding the mouse cursor when watching a video. 😑
 
@@ -12,7 +12,7 @@ Or if you prefer Firefox, [here](https://addons.mozilla.org/en-US/firefox/addon/
 
 This branch is for v0.3.x but right now the version available on the Chrome Web Store is v0.2.2. Right now I am still testing out v0.3 and deciding if I want to make the switch. I'll put the difference between them down below.
 
-## How the extension works:
+## How the extension works 🤓:
 
 For anyone who is curious or wants to learn how this extension works, here's an explanation. If you have any questions or suggestions, please feel free to open an issue or email me. 😉
 
