@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Hide Mouse for Hulu",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "Hide the mouse while viewing a Hulu video",
 	"update_url": "https://clients2.google.com/service/update2/crx",
 	"action": {
