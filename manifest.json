@@ -1,16 +1,16 @@
 {
-    "manifest_version": 2,
-    "name": "Hide Mouse for HBO Max",
-    "version": "0.1.0",
-    "description": "Hide the mouse while viewing a HBO Max video",
-    "update_url": "https://clients2.google.com/service/update2/crx",
-    "content_scripts": [
-        {
-            "matches": ["https://*.hbomax.com/*"],
-            "js": ["script.js"]
-        }
-    ],
-    "icons": {
-        "96": "images/icon96.png"
-    }
+	"manifest_version": 3,
+	"name": "Hide Mouse for HBO Max",
+	"version": "0.2.2",
+	"description": "Hide the mouse while viewing a HBO Max video",
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"content_scripts": [
+		{
+			"matches": ["https://*.hbomax.com/*"],
+			"js": ["script.js"]
+		}
+	],
+	"icons": {
+		"128": "images/icon.png"
+	}
 }
